@@ -29,7 +29,7 @@ Depois, no ChatGPT ou Codex, selecione `ChatGPT Plugins — mx7842` e instale `P
 ├── .agents/plugins/marketplace.json
 └── plugins/professor-ingles-do-zero/
     ├── .codex-plugin/plugin.json
-    ├── assets/icon.png
+    ├── assets/icon.svg
     └── skills/professor-ingles-do-zero/
 ```
 
