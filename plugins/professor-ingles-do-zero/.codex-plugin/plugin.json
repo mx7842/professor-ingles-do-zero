@@ -1,38 +1,24 @@
 {
   "name": "professor-ingles-do-zero",
   "version": "0.1.0+codex.20260922113338",
-  "description": "Plugin para ChatGPT e Codex que ensina ingl\u00eas do A0 ao C2 com aulas pr\u00e1ticas e multimodais.",
+  "description": "Plugin para ChatGPT e Codex que ensina inglês do A0 ao C2 com aulas práticas e multimodais.",
   "author": {
-    "name": "Local developer"
+    "name": "mx7842"
   },
   "repository": "https://github.com/mx7842/professor-ingles-do-zero",
   "license": "MIT",
-  "keywords": [
-    "chatgpt",
-    "codex",
-    "plugin",
-    "english-learning",
-    "education"
-  ],
+  "keywords": ["chatgpt", "codex", "plugin", "english-learning", "education"],
   "skills": "./skills/",
   "interface": {
-    "displayName": "Professor Ingl\u00eas do Zero",
-    "shortDescription": "Aprenda ingl\u00eas do A0 ao C2 com pr\u00e1tica adaptativa.",
-    "longDescription": "Plugin para ChatGPT e Codex que atua como professor particular de ingl\u00eas para brasileiros, com diagn\u00f3stico por habilidade, aulas curtas, conversa\u00e7\u00e3o, pron\u00fancia, listening, leitura, escrita, revis\u00e3o e progress\u00e3o baseada em compet\u00eancia.",
-    "developerName": "Local developer",
+    "displayName": "Professor Inglês do Zero",
+    "shortDescription": "Aprenda inglês do A0 ao C2 com prática adaptativa.",
+    "longDescription": "Plugin para ChatGPT e Codex que atua como professor particular de inglês para brasileiros, com diagnóstico por habilidade, aulas curtas, conversação, pronúncia, listening, leitura, escrita, revisão e progressão baseada em competência.",
+    "developerName": "mx7842",
     "category": "Education",
-    "capabilities": [
-      "Interactive",
-      "Educational",
-      "Multimodal"
-    ],
+    "capabilities": ["Interactive", "Educational", "Multimodal"],
     "brandColor": "#0B2A5B",
-    "composerIcon": "./assets/icon.png",
-    "logo": "./assets/icon.png",
-    "defaultPrompt": [
-      "Fa\u00e7a meu diagn\u00f3stico inicial de ingl\u00eas.",
-      "D\u00ea uma microaula pr\u00e1tica de ingl\u00eas.",
-      "Vamos praticar conversa\u00e7\u00e3o em ingl\u00eas."
-    ]
+    "composerIcon": "./assets/icon.svg",
+    "logo": "./assets/icon.svg",
+    "defaultPrompt": ["Faça meu diagnóstico inicial de inglês.", "Dê uma microaula prática de inglês.", "Vamos praticar conversação em inglês."]
   }
 }
