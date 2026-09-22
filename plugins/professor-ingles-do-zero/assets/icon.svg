@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Professor Inglês do Zero</title>
+  <desc id="desc">Ícone azul-marinho com livro aberto e letras EN</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071A3D"/><stop offset="1" stop-color="#1464A5"/></linearGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#D7E8F7"/></linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <circle cx="392" cy="118" r="42" fill="#F4B942"/>
+  <path d="M96 190c60-36 118-36 160 0v190c-42-30-100-30-160 0V190Z" fill="url(#page)"/>
+  <path d="M416 190c-60-36-118-36-160 0v190c42-30 100-30 160 0V190Z" fill="url(#page)"/>
+  <path d="M256 190v190" stroke="#8CB6D8" stroke-width="8"/>
+  <path d="M126 235c36-16 72-16 108 0M126 275c36-16 72-16 108 0M278 235c36-16 72-16 108 0M278 275c36-16 72-16 108 0" fill="none" stroke="#8CB6D8" stroke-width="7" stroke-linecap="round"/>
+  <text x="256" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="74" font-weight="700" fill="#FFFFFF" letter-spacing="8">EN</text>
+  <path d="M128 414h256" stroke="#F4B942" stroke-width="12" stroke-linecap="round"/>
+</svg>
