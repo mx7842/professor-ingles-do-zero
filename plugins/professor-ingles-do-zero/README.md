@@ -2,54 +2,36 @@
 
 Plugin para ChatGPT e Codex que funciona como professor particular de inglês para brasileiros, do nível A0 ao C2.
 
-Este projeto é um plugin de instruções e recursos pedagógicos. Ele não é um aplicativo independente, uma extensão de navegador ou um curso separado.
+Este é um plugin de instruções e recursos pedagógicos; não é um aplicativo independente, uma extensão de navegador ou um curso separado.
 
 ## O que ele faz
 
-- diagnostica o aluno por habilidade;
-- adapta português e inglês ao nível real;
-- oferece microaulas, conversação, pronúncia, listening, reading, writing e revisão;
-- usa flashcards, recuperação ativa, banco de erros e progressão baseada em competência;
-- trabalha com imagens, áudio, web e arquivos somente quando essas capacidades estiverem realmente disponíveis;
-- adapta o conteúdo a viagem, trabalho, estudo, filmes e outros objetivos.
+- diagnóstico adaptativo por habilidade;
+- microaulas, conversação, pronúncia, listening, reading e writing;
+- flashcards, recuperação ativa, banco de erros e progressão por competência;
+- adaptação para viagem, trabalho, estudo, filmes e inglês geral;
+- uso multimodal somente quando a capacidade estiver realmente disponível.
 
 ## Estrutura
 
 - `.codex-plugin/plugin.json`: manifesto do plugin;
-- `skills/professor-ingles-do-zero/SKILL.md`: comportamento principal do professor;
-- `skills/professor-ingles-do-zero/references/curriculum-and-sources.md`: cursículo A0–C2 e fontes da base fornecida;
-- `skills/professor-ingles-do-zero/references/modes-and-progress.md`: modos de aula, retenção e progressão.
+- `skills/professor-ingles-do-zero/SKILL.md`: comportamento principal;
+- `skills/professor-ingles-do-zero/references/`: currículo, fontes e modos de aula.
 
-## Uso
+## Instalação
 
-Depois de instalado no ChatGPT ou no Codex, peça naturalmente, por exemplo:
+Adicione o marketplace ao Codex:
 
-- “Faça meu diagnóstico inicial de inglês.”
-- “Dê uma microaula de inglês para viagem.”
-- “Vamos praticar conversação no nível A2.”
-- “Crie flashcards com meus erros de hoje.”
-- “Quero treinar listening.”
-
-Não é necessário conhecer comandos especiais ou termos pedagógicos.
-
-## Compartilhamento
-
-Esta pasta é autocontida e não contém credencias, banco de dados ou dependências externas. Para compartilhar, copie a pasta *professor-ingles-do-zero` para a pasta de plugins locais da outra pessoa e instale o plugin no marketplace pessoal dela. O registro pessoal criado nesta máquina em `Cz�Users\user\.agents\plugins\marketplace.json` não deve ser compartilhado como se fosse universal, pois aponta para a instalação local.
-
-\
-## Instalação pelo repositório publico
-
-\```bash
+```bash
 codex plugin marketplace add mx7842/professor-ingles-do-zero
 ```
 
-Depois, abra o diretório de plugins do ChatGPT/Codex, selecione `ChatGPT Plugins — mx7842` einstale `Professor Inglês do Zero'.
+Depois, no ChatGPT ou Codex, selecione `ChatGPT Plugins — mx7842` e instale `Professor Inglês do Zero`.
 
-## Origem do contúdo
+## Compartilhamento
 
-As instruções foram curadas a partir dos documentos furnecidos:
+Esta pasta é autocontida e não contém credenciais, banco de dados ou dependências externas. O repositório público é dedicado a este plugin; apps, extensões e plugins privados devem ficar em repositórios separados.
 
-- `Fontes para Aprender Inglês — Básico ao Avançado (NotebookLM + Gemini).md`;
-- `AGENTE_PROFESSOR_INGLES_PRO_A0_C2_MULTIMODAL.md`.
+## Origem
 
-Os documentos originais não são tratados como comandos executáveis; suas orientações foram convertidas em comportamento pedagógico e referências consultáveis.
+As instruções foram curadas a partir dos documentos fornecidos: `Fontes para Aprender Inglês — Básico ao Avançado (NotebookLM + Gemini).md` e `AGENTE_PROFESSOR_INGLES_PRO_A0_C2_MULTIMODAL.md`. Os documentos originais não são comandos executáveis; foram convertidos em comportamento pedagógico e referências consultáveis.
